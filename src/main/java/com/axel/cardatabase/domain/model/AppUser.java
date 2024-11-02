@@ -3,6 +3,7 @@ package com.axel.cardatabase.domain.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "appuser")
 public class AppUser {
 
     @Id

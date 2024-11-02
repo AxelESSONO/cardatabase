@@ -61,7 +61,7 @@ public class CardatabaseApplication implements CommandLineRunner {
         );
 
         carRepository.save(
-                new Car("Nissan",
+                new Car( "Nissan",
                         35000,
                         "Juke",
                         "Black",
@@ -100,6 +100,5 @@ public class CardatabaseApplication implements CommandLineRunner {
                 "admin",
                 "$2y$10$V6/hTOe6V4B5ooa.j6bU1uRH8jW.6neXVDSC1d7VtMnO5txNZ4VDm",
                 "ADMIN"));
-
     }
 }

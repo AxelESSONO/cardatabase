@@ -1,9 +1,9 @@
 package com.axel.cardatabase.domain.model;
 
-
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "car")
 public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
